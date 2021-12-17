@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-This project uses components imported from material design system and is a simple application to collect profile details.
+This project makes an api call.
 
 ## Further help
 
