@@ -1,0 +1,12 @@
+.card {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 8px;
+  background-color: #e7d3b6;
+}
+
+.listi {
+  height: fit-content;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}

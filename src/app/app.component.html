@@ -1,0 +1,15 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>User Details</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list role="list" *ngFor="let u of user">
+      <mat-list-item role="listitem" class="listi"
+        ><b>{{ u.id }}. {{ u.name }} </b> <br /><br />
+        -> {{ u.username }} <br />
+        -> {{ u.email }} <br />
+        -> {{ u.phone }} </mat-list-item
+      ><mat-divider></mat-divider>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
